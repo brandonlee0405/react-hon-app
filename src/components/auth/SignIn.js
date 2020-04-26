@@ -6,7 +6,7 @@ class SignIn extends Component {
 
     }
     render() {
-
+        console.log("PROCESS.ENV", process.env.PUBLIC_URL)
         return (
             <div className="container">
                 <form className="input-field" noValidate autoComplete="off">
