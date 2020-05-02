@@ -5,6 +5,9 @@ const SignedInLinks = () => {
   return (
     <ul className="right">
       <li>
+        {
+          // TODO: Need to complete when setting up authentication
+        }
         <NavLink to="/">Log Out</NavLink>
       </li>
       <li>

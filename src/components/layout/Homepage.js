@@ -1,26 +1,17 @@
 import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 
-class SignIn extends Component {
-  handleChange = () => {
-    console.log('Handle Change for Email');
-  };
+import headerImage from '../../img/hon-header.jpg';
 
+class Homepage extends Component {
   render() {
     return (
       <div className="container">
-        <h5 className="grey-text text-darken-3">Sign In</h5>
+        <img src={headerImage} alt="header" className="center" />
         <form className="input-field" noValidate autoComplete="off">
           <TextField
             id="standard-required"
-            label="Email Address"
-            onChange={this.handleChange}
-            fullWidth="true"
-          />
-          <br />
-          <TextField
-            id="filled-basic"
-            label="Password"
+            label="Search A Username"
             onChange={this.handleChange}
             fullWidth="true"
           />
@@ -30,4 +21,4 @@ class SignIn extends Component {
   }
 }
 
-export default SignIn;
+export default Homepage;
