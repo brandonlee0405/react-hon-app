@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
-
 import headerImage from '../../img/hon-header.jpg';
 
 class Homepage extends Component {
