@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import '../../design/SignInStylesheet.css';
 
 class SignIn extends Component {
   handleChange = () => {
@@ -17,28 +18,36 @@ class SignIn extends Component {
 
   render() {
     return (
-      <div className="container">
-        <h5 className="grey-text text-darken-3">Sign In</h5>
+      <div className="sign-in-container">
+        <h5 className="sign-in-header">Sign In</h5>
         <form className="input-field" noValidate autoComplete="off">
-          <TextField
-            id="email"
-            label="Email Address"
-            onChange={this.handleChange}
-            fullWidth="true"
-            variant="outlined"
-          />
-          <br />
-          <TextField
-            id="user-pass"
-            label="Password"
-            onChange={this.handleChange}
-            fullWidth="true"
-            variant="outlined"
-          />
+          <div className="textfield-container">
+            <TextField
+              id="email"
+              label="Email Address"
+              onChange={this.handleChange}
+              variant="outlined"
+              fullWidth="true"
+            />
+            <br />
+            <br />
+            <TextField
+              id="user-pass"
+              label="Password"
+              onChange={this.handleChange}
+              type="password"
+              variant="outlined"
+              fullWidth="true"
+            />
+            <br />
+          </div>
           <Button variant="outlined" onClick={this.getEmailAndId}>
             Log In
           </Button>
-          <a href="../layout/Homepage">Don't have an account? Click here.</a>
+          <br />
+          <a href="../layout/Homepage">
+            Don&#39;t have an account? Sign up here.
+          </a>
         </form>
       </div>
     );
