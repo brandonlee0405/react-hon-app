@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import '../../design/SignInStylesheet.css';
+import { NavLink } from 'react-router-dom';
 
 class SignIn extends Component {
   handleChange = () => {
@@ -45,9 +46,9 @@ class SignIn extends Component {
             Log In
           </Button>
           <br />
-          <a href="../layout/Homepage">
+          <NavLink to="/signup">
             Don&#39;t have an account? Sign up here.
-          </a>
+          </NavLink>
         </form>
       </div>
     );
