@@ -1,0 +1,12 @@
+form #user-search {
+  color: black;
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.homepage-search {
+  width: 35%;
+  padding-top: 15%;
+  margin: 0 auto;
+}

@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
-import headerImage from '../../img/hon-header.jpg';
+
+import '../../design/Homepage.css';
 
 class Homepage extends Component {
   render() {
     return (
-      <div className="container">
-        <img src={headerImage} alt="header" className="center" />
-        <form className="input-field" noValidate autoComplete="off">
+      <div className="homepage-search">
+        <form className="homepage-input-field" noValidate autoComplete="off">
           <TextField
-            id="standard-required"
+            id="user-search"
             label="Search A Username"
             onChange={this.handleChange}
             fullWidth="true"
+            variant="filled"
+            color="secondary"
           />
         </form>
       </div>

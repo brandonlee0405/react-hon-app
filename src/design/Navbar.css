@@ -1,0 +1,9 @@
+nav {
+  position: fixed;
+  z-index: 2;
+}
+
+nav .nav-container {
+  margin: 0 auto;
+  width: 70%;
+}

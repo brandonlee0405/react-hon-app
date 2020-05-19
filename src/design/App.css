@@ -1,0 +1,32 @@
+.App-link {
+  color: #61dafb;
+}
+
+.background-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  top: 6%;
+  width: 100%;
+  background-image: url('https://ancientgreecetom10.weebly.com/uploads/2/3/3/8/23382428/6732037_orig.jpg');
+}
+.center {
+  display: block;
+  margin: 0 auto;
+}
+.body {
+}
+.App {
+  height: 100vh;
+  width: 100vh;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

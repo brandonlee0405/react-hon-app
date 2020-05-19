@@ -1,0 +1,32 @@
+.sign-in-header {
+  margin-top: 0;
+}
+
+.input-form {
+  width: 35%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 13%;
+}
+
+.input-form #email,
+.input-form #user-pass {
+  color: black;
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+}
+.sign-in-header {
+  color: black;
+}
+
+.input-form Button {
+  margin: 8% 0 0;
+  opacity: 0.8;
+  width: 12%;
+}
+
+#redirect-to-official-hon {
+  color: rgb(103, 241, 207);
+  padding-top: 5%;
+}
