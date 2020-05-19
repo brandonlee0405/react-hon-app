@@ -21,12 +21,11 @@
 }
 
 .input-form Button {
-  margin: 8% 0 0;
+  margin: 8% 0 20%;
   opacity: 0.8;
   width: 12%;
 }
 
 #redirect-to-official-hon {
-  color: rgb(103, 241, 207);
-  padding-top: 5%;
+  color: rgb(223, 194, 29);
 }
