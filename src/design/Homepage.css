@@ -3,10 +3,18 @@ form #user-search {
   background-color: white;
   opacity: 0.8;
   text-align: center;
+  padding-top: 2%;
 }
 
-.homepage-search {
-  width: 35%;
-  padding-top: 15%;
-  margin: 0 auto;
+.homepage-input-field {
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 30%;
+}
+
+#homepage-username-search-button {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% auto 0;
 }

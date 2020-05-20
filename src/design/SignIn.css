@@ -1,7 +1,3 @@
-.sign-in-header {
-  margin-top: 0;
-}
-
 .input-form {
   width: 35%;
   text-align: center;
@@ -18,14 +14,16 @@
 }
 .sign-in-header {
   color: black;
+  margin-top: 0;
 }
 
 .input-form Button {
-  margin: 8% 0 20%;
+  display: flex;
+  flex-wrap: wrap;
   opacity: 0.8;
-  width: 12%;
+  margin: 8% auto 20%;
 }
 
-#redirect-to-official-hon {
+#sign-up-hyperlink {
   color: rgb(223, 194, 29);
 }

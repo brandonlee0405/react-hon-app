@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import '../../design/SignIn.css';
-import InputAdornment from '@material-ui/core/InputAdornment';
+import { NavLink } from 'react-router-dom';
 
 class SignIn extends Component {
   handleChange = () => {
@@ -30,8 +30,10 @@ class SignIn extends Component {
           fullWidth="true"
           color="secondary"
         />
+
         <br />
         <br />
+
         <TextField
           id="user-pass"
           label="Password"
@@ -41,18 +43,18 @@ class SignIn extends Component {
           fullWidth="true"
           color="secondary"
         />
+
         <br />
 
         <Button variant="contained" onClick={this.getEmailAndId}>
           Log In
         </Button>
+
         <br />
-        <a
-          id="redirect-to-official-hon"
-          href="https://www.heroesofnewerth.com/create/"
-        >
+
+        <NavLink id="sign-up-hyperlink" to="/signup">
           Don&#39;t have an account? Sign up here.
-        </a>
+        </NavLink>
       </form>
     );
   }

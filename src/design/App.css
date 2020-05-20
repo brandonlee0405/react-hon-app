@@ -18,9 +18,11 @@
 }
 .body {
 }
+
+/*vh and vw mean = height and width of the window*/
 .App {
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
 }
 @keyframes App-logo-spin {
   from {
