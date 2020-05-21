@@ -8,7 +8,7 @@ const SignedInLinks = () => {
         {
           // TODO: Need to complete when setting up authentication
         }
-        <NavLink to="/">Log Out</NavLink>
+        <NavLink to="/homepage">Log Out</NavLink>
       </li>
       <li>
         <NavLink to="/" className="btn btn-floating red lighten-2">

@@ -13,8 +13,8 @@ function App() {
       <Navbar />
       <div className="background-container">
         <Switch>
-          <Route exact path="/" component={Homepage} />
-          <Route path="/signin" component={SignIn} />
+          <Route exact path="/" component={SignIn} />
+          <Route path="/homepage" component={Homepage} />
           <Route path="/signup" component={SignUp} />
         </Switch>
       </div>
