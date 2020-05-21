@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import InputAdornment from '@material-ui/core/InputAdornment';
+import '../../design/SignUp.css';
 
 class SignUp extends Component {
   handleChange = () => {
@@ -10,7 +10,12 @@ class SignUp extends Component {
 
   render() {
     return (
-      <form className="input-form" noValidate autoComplete="off">
+      <form
+        id="create-account-form"
+        className="input-form"
+        noValidate
+        autoComplete="off"
+      >
         <h4 className="create-account-header">Create Account</h4>
 
         <TextField
